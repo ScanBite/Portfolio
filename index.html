@@ -1,17 +1,86 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Coming Soon</title>
-</head>
-<body>
-    <div id="main">
-        <img src="Resource/ScanBite.png" alt="Logo Image">
-        <h2>We are Coming Soon...</h2>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="./script.js" async></script>
+    <title>Coming Soon.....</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"
+        ><img
+          src="Resources/ScanBite-White.png"
+          alt="ScanBite Logo"
+          width="200px"
+      /></a>
+      <!-- <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </nav> -->
+    </header>
+    <section>
+      <img src="Resources/curve.png" class="wave" alt="Decorative Wave" />
+      <div class="contentBx">
+        <h2>Coming Soon</h2>
+        <p>Development In Progress.....</p>
+        <div class="countdown">
+          <div class="time">
+            <div id="day"></div>
+            <span>Days</span>
+          </div>
+          <div class="time">
+            <div id="hour"></div>
+            <span>Hours</span>
+          </div>
+          <div class="time">
+            <div id="minute"></div>
+            <span>Minutes</span>
+          </div>
+          <div class="time">
+            <div id="second"></div>
+            <span>Seconds</span>
+          </div>
+        </div>
+        <!-- <a href="/#" onclick="toggle();">Notify Me</a> -->
+      </div>
+      <div class="imgBx">
+        <img src="Resources/man.png" alt="Man Illustration" />
+      </div>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="Resources/instagram.png" alt="Instagram" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="Resources/facebook.png" alt="Facebook" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="Resources/twitter.png" alt="Twitter" /></a>
+        </li>
+      </ul>
+    </section>
+    <div class="newsletter">
+      <h2>Stay Tuned</h2>
+      <p>Get notified at launch</p>
+      <div class="inputBox">
+        <form>
+          <input
+            type="email"
+            name=""
+            required=""
+            placeholder="Enter Email Address"
+          />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <img
+        src="Resources/close.png"
+        class="close"
+        onclick="toggle();"
+        alt="Close"
+      />
     </div>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-</body>
+  </body>
 </html>
