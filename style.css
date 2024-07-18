@@ -17,14 +17,14 @@ header {
   padding: 40px 100px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; /* Add a valid value for align-items */
   z-index: 10;
 }
 
 header .logo {
   position: relative;
   color: #fff;
-  font-size: 28px;
+  /* font-size: 28px; */
   text-decoration: none;
   font-weight: 600;
 }
@@ -99,7 +99,6 @@ section .contentBx .countdown .time {
 }
 
 section .contentBx .countdown .time span {
-  margin-top: -10px;
   font-size: 20px;
   font-weight: 600;
   color: #312747;
